@@ -1,0 +1,53 @@
+aside .active {
+    background: #FFFFFF;
+}
+
+header svg {
+    color: #6E2594;
+    cursor: pointer;
+}
+
+header svg:hover {
+    color: #a54ed4;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 01em 1em;
+    text-transform: capitalize;
+}
+table thead tr th{
+    text-align: center !important;
+
+}
+
+table th:first-child,
+table td:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+table th:last-child,
+table td:last-child {
+    border-radius: 0 10px 10px 0;
+}
+
+table tbody tr {
+    margin: 5px 0;
+}
+
+table tbody tr:nth-child(2n+1) td {
+    background: #ffffff;
+    text-align: center;
+
+}
+
+
+
+table tbody tr:nth-child(2n) td {
+    background: #F2EDED;
+    text-align: center;
+
+}
+:disabled{
+    opacity: 0.45 !important;
+}

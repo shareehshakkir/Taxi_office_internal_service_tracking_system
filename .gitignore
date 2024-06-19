@@ -1,0 +1,9 @@
+Front-end/node_modules
+.DS_Store
+virtualenv
+.idea
+Back-end/api/migrations
+Back-end/api/__pycache__
+Back-end/base/migrations
+Back-end/base/__pycache__
+Back-end/base/api/__pycache__

@@ -1,0 +1,257 @@
+{
+  "admin": [
+    {
+      "id": 1,
+      "name": "admin",
+      "username": "admin"
+    }
+  ],
+  "drivers": [
+    {
+      "id": 1,
+      "username": "user1",
+      "email": "user1@gmail.com",
+      "name": "user1",
+      "dob": "2002-01-04",
+      "phone": "9874563210",
+      "upi": "user1@bank",
+      "taxi_details": {
+        "taxi_no": "KL 01 GS 3546",
+        "test_date": "2024-02-12",
+        "insurance_val": "2025-01-01",
+        "car_model": "Toyota",
+        "type": "sedan"
+      },
+      "total_rides": 5,
+      "earnings": {
+        "total_earnings": 10000,
+        "total_paid": 5000,
+        "total_pending": 5000
+      },
+      "status": "active",
+      "availability": "Available"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "email": "user2@gmail.com",
+      "name": "user2",
+      "dob": "27-02-2002",
+      "phone": "9874563220",
+      "upi": "user2@bank",
+      "taxi_details": {
+        "taxi_no": "KL 02 GS 3546",
+        "test_date": "2-22-2024",
+        "insurance_val": "2-22-2024",
+        "car_model": "Toyota",
+        "type": "sedan"
+      },
+      "total_rides": 2,
+      "earnings": {
+        "total_earnings": 10000,
+        "total_paid": 5000,
+        "total_pending": 5000
+      },
+      "status": "disabled",
+      "availability": "In Ride"
+    },
+    {
+      "id": 3,
+      "username": "user3",
+      "email": "user3@gmail.com",
+      "name": "user3",
+      "dob": "7-02-2002",
+      "phone": "9874563230",
+      "upi": "user3@bank",
+      "taxi_details": {
+        "taxi_no": "KL 03 GS 3546",
+        "test_date": "3-2-2024",
+        "insurance_val": "3-3-2024",
+        "car_model": "Toyota",
+        "type": "sedan"
+      },
+      "total_rides": 2,
+      "earnings": {
+        "total_earnings": 10000,
+        "total_paid": 5000,
+        "total_pending": 5000
+      },
+      "status": "active",
+      "availability": "Available"
+    },
+    {
+      "id": 4,
+      "username": "user4",
+      "email": "user4@gmail.com",
+      "name": "user4",
+      "dob": "4-02-2002",
+      "phone": "9874563240",
+      "upi": "user4@bank",
+      "taxi_details": {
+        "taxi_no": "KL 04 GS 3546",
+        "test_date": "4-4-2024",
+        "insurance_val": "4-4-2024",
+        "car_model": "Toyota",
+        "type": "sedan"
+      },
+      "total_rides": 2,
+      "earnings": {
+        "total_earnings": 10000,
+        "total_paid": 5000,
+        "total_pending": 5000
+      },
+      "status": "disabled",
+      "availability": "Available"
+    },
+    {
+      "id": 5,
+      "username": "user5",
+      "email": "user5@gmail.com",
+      "name": "user5",
+      "dob": "7-02-2002",
+      "phone": "9874563250",
+      "upi": "user5@bank",
+      "taxi_details": {
+        "taxi_no": "KL 05 GS 3546",
+        "test_date": "5-2-2024",
+        "insurance_val": "5-2-2024",
+        "car_model": "Toyota",
+        "type": "sedan"
+      },
+      "total_rides": 2,
+      "earnings": {
+        "total_earnings": 10000,
+        "total_paid": 5000,
+        "total_pending": 5000
+      },
+      "status": "active",
+      "availability": "Not Available"
+    },
+    {
+      "id": 6,
+      "username": "user6",
+      "email": "user6@gmail.com",
+      "name": "user6",
+      "dob": "7-02-2002",
+      "phone": "9874563260",
+      "upi": "user6@bank",
+      "taxi_details": {
+        "taxi_no": "KL 06 GS 3546",
+        "test_date": "6-6-2024",
+        "insurance_val": "6-2-2024",
+        "car_model": "Toyota",
+        "type": "sedan"
+      },
+      "total_rides": 2,
+      "earnings": {
+        "total_earnings": 10000,
+        "total_paid": 5000,
+        "total_pending": 5000
+      },
+      "status": "active",
+      "availability": "Available"
+    },
+    {
+      "id": 7,
+      "username": "user7",
+      "email": "user7@gmail.com",
+      "name": "user7",
+      "dob": "7-02-2002",
+      "phone": "9874563270",
+      "upi": "user7@bank",
+      "taxi_details": {
+        "taxi_no": "KL 07 GS 3546",
+        "test_date": "7-7-2024",
+        "insurance_val": "7-7-2024",
+        "car_model": "Toyota",
+        "type": "sedan"
+      },
+      "total_rides": 2,
+      "earnings": {
+        "total_earnings": 10000,
+        "total_paid": 5000,
+        "total_pending": 5000
+      },
+      "status": "disabled",
+      "availability": "Not Available"
+    },
+    {
+      "name": "cyrilckurian",
+      "password": "david@123",
+      "confirm_password": "david@123",
+      "id": 8
+    }
+  ],
+  "req_rides": [
+    {
+      "id": 1,
+      "pass_name": "Aman",
+      "from": "Kochi",
+      "to": "Trissur",
+      "start_time": "12:00",
+      "expected_time": "14:00",
+      "date": "1-6-2023",
+      "status": "accepted",
+      "exp_amount": 1000,
+      "interested_in_car_pooled": "yes",
+      "percentage": 50,
+      "driverId": 1
+    },
+    {
+      "id": 2,
+      "pass_name": "Ammu",
+      "from": "Kochi",
+      "to": "Trissur",
+      "start_time": "22:00",
+      "expected_time": "24:00",
+      "date": "2-6-2023",
+      "status": "pending",
+      "exp_amount": 1000,
+      "interested_in_car_pooled": "yes",
+      "percentage": 50,
+      "driverId": 1
+    },
+    {
+      "id": 3,
+      "pass_name": "Ram",
+      "from": "Kochi",
+      "to": "Trissur",
+      "start_time": "12:00",
+      "expected_time": "14:00",
+      "date": "3-6-2023",
+      "status": "waiting",
+      "exp_amount": 1000,
+      "interested_in_car_pooled": "yes",
+      "percentage": 50,
+      "driverId": 1
+    },
+    {
+      "id": 4,
+      "pass_name": "Henry",
+      "from": "Kochi",
+      "to": "Trissur",
+      "start_time": "12:00",
+      "expected_time": "14:00",
+      "date": "4-6-2023",
+      "status": "reached",
+      "exp_amount": 1000,
+      "interested_in_car_pooled": "yes",
+      "percentage": 50,
+      "driverId": 1
+    },
+    {
+      "id": 5,
+      "pass_name": "Akhil",
+      "from": "Kochi",
+      "to": "Trissur",
+      "start_time": "12:00",
+      "expected_time": "14:00",
+      "date": "5-6-2023",
+      "status": "canceled",
+      "exp_amount": 1000,
+      "interested_in_car_pooled": "yes",
+      "percentage": 50,
+      "driverId": 1
+    }
+  ]
+}
